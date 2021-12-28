@@ -8,6 +8,12 @@ Laços: Condicional Simples
 Banco de Dados: Nenhum
 """
 
+import Login_DB
+
+Conect = Login_DB.connection
+# Conectando ao Database
+Conect("")
+
 
 usuario_bd = usuario = input('Nome de usuário: ')
 senha_bd = senha = input('Senha de usuário: ')
